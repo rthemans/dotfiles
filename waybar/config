@@ -8,8 +8,8 @@
         "hyprland/workspaces"
         ],
         "modules-center": [
-            "clock"
-                "hyprland/submodule"
+            "clock",
+        "hyprland/submodule"
         ],
         "modules-right": [
             "tray",
