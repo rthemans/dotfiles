@@ -64,19 +64,6 @@
         "format-alt": "  {:%a, %d %b %Y}",
         "format": "  {:%I:%M %p}"
     },
-    "network": {
-        "format-wifi" : "{icon}",
-        "format-icons": ["󰤯","󰤟","󰤢","󰤥","󰤨"],
-        "format-ethernet": "󰀂",
-	"format-alt" : "󱛇",
-        "format-disconnected" : "󰖪",
-	"tooltip-format-wifi": "{icon} {essid}\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
-        "tooltip-format-ethernet": "󰀂  {ifname}\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
-	"tooltip-format-disconnected": "Disconnected",
-	"on-click": "nmtui",
-	"interval": 5,
-	"nospacing": 1,
-    },
     "wireplumber": {
         "format": "{icon}",
         "format-bluetooth": "󰂰",
@@ -91,8 +78,6 @@
         "scroll-step": 1
     },
     "custom/logo": {
-        "format": "  ",
-        "tooltip": false,
         "on-click": "anyrun"
     },
     "battery": {
