@@ -9,12 +9,11 @@
         ],
         "modules-center": [
             "clock",
-        "hyprland/submodule"
+        "hyprland/submap"
         ],
         "modules-right": [
             "tray",
         "memory",
-        "network",
         "wireplumber",
         "battery",
         "custom/power"
