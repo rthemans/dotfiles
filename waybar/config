@@ -1,10 +1,9 @@
 {
-    "layer": "top",
+    "layer": "bottom",
         "position": "top",
-        "spacing": 0,
         "height": 34,
+        "mode": "dock",
         "modules-left": [
-            "custom/logo",
         "hyprland/workspaces"
         ],
         "modules-center": [
@@ -82,9 +81,6 @@
             "on-click": "pamixer -t",
             "scroll-step": 1
         },
-        "custom/logo": {
-            "on-click": "anyrun"
-        },
         "battery": {
             "format": "{capacity}% {icon}",
             "format-icons": {
@@ -124,6 +120,7 @@
         "custom/power": {
             "format": "󰤆",
             "tooltip": false,
-            "on-click": "~/.config/rofi/powermenu/type-2/powermenu.sh &"
+            "on-click": "poweroff",
+            "on-click-right": "reboot"
         }
 }
