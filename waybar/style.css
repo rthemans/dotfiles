@@ -27,6 +27,7 @@ window#waybar.solo {
 
 window#waybar.termite {
     background-color: #3F3F3F;
+    opacity: 0.7;
 }
 
 window#waybar.chromium {
@@ -95,6 +96,8 @@ button:hover {
 #mpd {
     padding: 0 10px;
     color: #ffffff;
+    opacity: 0.85;
+    border-radius: 10px;
 }
 
 #window,
@@ -325,6 +328,14 @@ label:focus {
     background-color: #0069d4;
 }
 
-#submap.rthemans {
-    color: red;
+#submap {
+    border: 1px;
+    border-radius: 10px;
+    border-style: solid;
+    font-family: "JetBrains Mono";
+    opacity: 0.85;
+    background-color: white;
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
 }
