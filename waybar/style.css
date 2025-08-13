@@ -2,6 +2,7 @@
     /* `otf-font-awesome` is required to be installed for icons */
     font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
     font-size: 13px;
+    margin-top: 2px;
 }
 
 window#waybar {
@@ -116,7 +117,7 @@ button:hover {
 }
 
 #clock {
-    background-color: #64727D;
+    background-color: #9da77e;
 }
 
 #battery {
@@ -188,7 +189,7 @@ label:focus {
 }
 
 #network {
-    background-color: #2980b9;
+    background-color: #7db0c2;
 }
 
 #network.disconnected {
@@ -334,7 +335,7 @@ label:focus {
     border-style: solid;
     font-family: "JetBrains Mono";
     opacity: 0.85;
-    background-color: white;
+    background-color: WHITE;
     color: black;
     padding-left: 5px;
     padding-right: 5px;
