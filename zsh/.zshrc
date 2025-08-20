@@ -34,3 +34,6 @@ setopt COMPLETE_IN_WORD
 #colors
 
 if [ -e /home/dev/.nix-profile/etc/profile.d/nix.sh ]; then . /home/dev/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+
+source ~/.config/zsh/aliases.zsh
+source ~/.config/zsh/init.zsh
