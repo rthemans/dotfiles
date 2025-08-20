@@ -12,7 +12,7 @@ export FZF_DEFAULT_OPTS='--tmux 50%,85%'
 HISTCONTROL=ignoredups:erasedups
 
 # append to the history file, don't overwrite it
-shopt -s histappend
+setopt APPEND_HISTORY
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=1000
