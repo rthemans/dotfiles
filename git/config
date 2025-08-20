@@ -1,0 +1,40 @@
+[user]
+	email = raph.the@gmail.com
+	name = Raphaël Thémans
+[alias]
+    cm  = "commit -a -m"
+    st  = "status -sb"
+    ll  = "log --oneline"
+    rv  = "remote -v"
+    d   = "diff"
+    global-list = "config --global -l"
+    gl  = "!git global-list"
+    push-for-review = "!git push origin HEAD:refs/for/\"$(git rev-parse --abbrev-ref HEAD)\""
+    pfr = "!git push-for-review"
+    sur = "submodule update --remote"
+    res = "reset --soft HEAD~"
+    push-branch = "!git push --set-upstream origin \"$(git rev-parse --abbrev-ref HEAD)\""
+    pb  = "!git push-branch"
+    delete-branch = "push origin --delete"
+    db = "!git delete-branch"
+    ignore = "update-index --skip-worktree"
+    no-ignore = "update-index --no-skip-worktree"
+[help]
+    autocorrect = "prompt"
+[core]
+    commentChar = ";"
+[pull]
+    rebase = true
+[merge]
+    ff = no
+    commit = no
+    tool = nvimdiff
+[rerere]
+    autoUpdate = true
+    enable = true
+[mergetool]
+    keepBackup = false
+    prompt = false
+[mergetool "nvimdiff"]
+    layout = "LOCAL,BASE,REMOTE / MERGED"
+
