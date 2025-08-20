@@ -20,3 +20,9 @@ HISTFILESIZE=1000
 
 PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
 
+# autoload
+autoload -U compinit; compinit
+
+_comp_options+=(globdots) # With hidden files
+source ~/.config/zsh/completion.zsh
+source ~/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh

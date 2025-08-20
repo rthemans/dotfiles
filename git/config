@@ -25,6 +25,8 @@
     commentChar = ";"
 [pull]
     rebase = true
+[push]
+    autoSetupRemote = true
 [merge]
     ff = no
     commit = no
