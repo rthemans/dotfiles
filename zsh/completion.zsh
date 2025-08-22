@@ -13,6 +13,7 @@
 
 # Load more completions
 fpath=($XDG_CONFIG_HOME/zsh/plugins/zsh-completions/src $fpath)
+fpath=($XDG_CONFIG_HOME/zsh/plugins/gradle-completions $fpath)
 
 # Should be called before compinit
 zmodload zsh/complist

@@ -4,3 +4,6 @@
 [submodule "zsh/plugins/zsh-completions"]
 	path = zsh/plugins/zsh-completions
 	url = git@github.com:zsh-users/zsh-completions.git
+[submodule "zsh/plugins/gradle-completion"]
+	path = zsh/plugins/gradle-completion
+	url = git@github.com:gradle/gradle-completion.git
