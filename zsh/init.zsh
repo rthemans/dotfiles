@@ -26,3 +26,9 @@ autoload -U compinit; compinit
 _comp_options+=(globdots) # With hidden files
 source ~/.config/zsh/completion.zsh
 source ~/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+
+if [[ $TERM_PROGRAM != "tmux" ]]
+    then tmux new -As0 -c ~/
+fi
+
