@@ -5,7 +5,7 @@
 #
 
 autoload -U compinit
-compinit
+compinit -d ~/.config/cache/zsh/.zshcompdump
 
 #allow tab completion in the middle of a word
 setopt COMPLETE_IN_WORD
@@ -18,11 +18,11 @@ setopt COMPLETE_IN_WORD
 ## history
 #setopt APPEND_HISTORY
 ## for sharing history between zsh processes
-#setopt INC_APPEND_HISTORY
-#setopt SHARE_HISTORY
+setopt INC_APPEND_HISTORY
+setopt SHARE_HISTORY
 
 ## never ever beep ever
-#setopt NO_BEEP
+setopt NO_BEEP
 
 ## automatically decide when to page a list of completions
 #LISTMAX=0
@@ -30,7 +30,7 @@ setopt COMPLETE_IN_WORD
 ## disable mail checking
 #MAILCHECK=0
 
-# autoload -U colors
+autoload -U colors
 #colors
 
 if [ -e /home/dev/.nix-profile/etc/profile.d/nix.sh ]; then . /home/dev/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
